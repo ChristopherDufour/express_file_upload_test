@@ -1,0 +1,10 @@
+html
+	head
+		title #{file_name}
+	body
+		h1 #{file_name}
+		a(href='/') Home
+		div
+		img.image(src='/uploads/' + raw_file_name )
+		div
+		video(width="320" height="240" controls src='/uploads/' + raw_file_name)
